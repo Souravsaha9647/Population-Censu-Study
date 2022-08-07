@@ -1,5 +1,3 @@
-# Population-Censu-Study
-This project used the Indian goverment report on 2011 indias population.  And I try to analyze that by using Microsoft SQL. I used SQL quire like TOP, desc, asc, join table, and some other funtion with a lot of  Statasik.
 SELECT * FROM d1;
 select TOP 3 State,avg(Growth)*100 avg_growth from d1 group by State order by avg_growth desc;
 
